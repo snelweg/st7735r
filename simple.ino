@@ -1,3 +1,10 @@
+/*
+shows how to communicate simply with the st7735r display driver chip.
+
+see the "Reset Table" in the datasheet, it helps you in avoiding
+unnecessary initialization
+*/
+
 int pin_clk = 9;
 int pin_data = 8;
 int pin_cmd = 7;
